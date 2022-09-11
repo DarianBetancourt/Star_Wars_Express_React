@@ -1,0 +1,23 @@
+.contain-home{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('../imgs/star-wars-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contain-form , .contain-characters-list{
+    width: 50% !important;
+}
+.img-anakin{
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    width: 800px;
+}
+.img-nave{
+    margin-top: 100px;
+    position: fixed;
+    z-index: 0;
+    right: 10px;
+    width: 500px;
+}
