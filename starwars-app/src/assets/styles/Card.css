@@ -1,0 +1,123 @@
+.card-contain{
+   width: 600px;
+   height: 500px;
+   /* background-color: blue;  */
+}
+
+.back-card{
+    position: absolute;
+    z-index: 1;
+    height: 400px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #fc1a1ace;
+    /* box-shadow: 0px 0px 10px 12px #fc1a1ace; */
+}
+
+.contain-back-arrow{
+    background-color: #fff;
+    position: absolute;
+    padding: 10px 0 10px 0;
+    border-radius: 40px;
+    margin-left: -25px;
+    margin-top: 175px;
+}
+
+.back-arrow{
+    border-radius: 30px;
+    width: 50px;
+}
+
+.contain-img-back-card{
+    width: 70%;
+    height: 100%;
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg); 
+}
+
+.img-back-card{
+    margin-top: 70px;
+    width: 100%;
+    height: 60%;
+    opacity: 0.3;
+}
+
+.front-card{
+    position: absolute;
+    z-index: 1;
+    height: 300px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 25px;
+    background-color: #090202;
+    background-image: url('../imgs/red-background.jpg');
+    box-shadow: 0px 0px 10px 6px #fc1a1ace;
+}
+
+.contain-next-arrow{
+    background-color: #fff;
+    position: absolute;
+    padding: 10px 0 10px 0;
+    border-radius: 40px;
+    margin-left: 375px;
+    margin-top: 125px;
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg); 
+}
+
+.next-arrow{
+    border-radius: 30px;
+    width: 50px;
+}
+
+.character-img img{
+    position: absolute;
+    max-height: 250px;
+    margin-left: -50px;
+    margin-top: 30px;
+}
+
+.character-description h1{
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 0 0 0.2em rgb(252, 3, 3), 0 0 0.2em rgb(252, 3, 3),
+		0 0 0.2em rgb(252, 3, 3);
+}
+
+.character-description div{
+    text-align: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.neon-white{   
+    -moz-box-shadow: 0px 0px 20px #ffffff;
+    -webkit-box-shadow: 0px 0px 20px #ffffff;
+    box-shadow: 20px 0px 31px -19px #ffffff;
+    padding: 10px;
+    border-left: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #fff;
+    text-align: center;
+ }
+ 
+ .item-description{
+    margin-top: 5px;
+ }
+
+ .item-description label{
+    color: #fff;
+    margin: 20px 10px;
+ }
+
+ .item-description label span{
+    font-weight: bold;
+ }

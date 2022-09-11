@@ -1,0 +1,9 @@
+.characters-list{
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px #000;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

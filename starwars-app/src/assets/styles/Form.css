@@ -1,0 +1,37 @@
+.contain-form{
+    /* max-width: 350px; */
+    padding: 10px 20px;
+    margin: 10px 20px 10px 20px;
+    border: solid 1px #000;
+    border-radius: 8px;
+}
+.contain-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+button[type="submit"] , .input-form{
+    border-radius: 8px;
+    padding: 10px;
+}
+
+button[type="submit"]:hover{
+    cursor: pointer;
+}
+
+.item-form{
+    width: 50%;
+}
+
+.input-form{
+    margin-left: 20px;
+}
+.group-form{
+    border: solid 1px #000;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
